@@ -12,6 +12,7 @@ function theBeatlesPlay(musicians, instruments) {
 }
 
 function johnLennonFacts(facts) {
+<<<<<<< HEAD
   var sentences =[];
   var len = facts.length;
   var i = 0; 
@@ -31,3 +32,12 @@ function iLoveTheBeatles(number) {
   while (number<15);
   return sentences;
 }
+=======
+  var len = facts.len;
+  while (var i = 0; i < len; i++) {
+    facts[i]=+"!!!"
+  }
+  return facts  
+}
+
+>>>>>>> 259bb458033b3388f22a2e93c272acb5344c7279
